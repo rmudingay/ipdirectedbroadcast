@@ -21,8 +21,9 @@ import multiprocessing
 from time import sleep
 import time
 
+broadcast_addr = sys.argv
 # directed broadcast settings
-bcAddress = ["x.x.x.255","x.x.x.255"] # L3 directed broadcasts addresses
+bcAddress = broadcast_addr                    # L3 directed broadcasts addresses
 bcPort    = 5064                              # udp destination port to use
 bcCount   = 10000000                          # how many datagrams shall we send
 bcRate    = 14                                # Herz (Rate)

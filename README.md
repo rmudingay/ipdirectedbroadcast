@@ -24,7 +24,7 @@ bcCount   = 10000000                          # how many datagrams shall we send
 bcRate    = 14                                # Herz (Rate)
 bcSize    = 48                                # bytes (payload for udp segment)
 
-# run the command as follows and substitute BROADCAST_ADDR with the example destination address 1.2.3.255
 ```
+# run the command as follows and substitute BROADCAST_ADDR with the example destination address 1.2.3.255
 python ipdirectedbroadcast BROADCAST_ADDR
 ```
